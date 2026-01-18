@@ -22,3 +22,7 @@ ENV/
 # Local files not to track
 horoscope.py
 GITHUB_SETUP.md
+census.py
+censusmcp.py
+dfwrap.sh
+sub.py
