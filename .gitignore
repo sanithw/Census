@@ -21,3 +21,4 @@ ENV/
 
 # Local files not to track
 horoscope.py
+GITHUB_SETUP.md
