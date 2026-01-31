@@ -1,0 +1,9 @@
+# Census MCP Agent Dependencies
+
+# Claude Agent SDK for building AI agents with MCP support
+openai-agents
+dotenv
+
+# Additional common dependencies
+python-dotenv>=1.0.0  # For loading environment variables from .env file
+# requests>=2.31.0      # For HTTP requests (if needed by other scripts)

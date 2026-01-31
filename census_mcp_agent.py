@@ -9,9 +9,14 @@ Created on Sun Jan  4 19:57:57 2026
 import asyncio
 import os
 
+from dotenv import load_dotenv
+
 from agents import Agent, Runner
 from agents.mcp import MCPServerStdio
 from agents.model_settings import ModelSettings
+
+# Load environment variables from .env file
+load_dotenv()
 
 CENSUS_MCP_COMMAND = os.environ.get("CENSUS_MCP_COMMAND", "/Users/sanith/Documents/Projects/Census/us-census-bureau-data-api-mcp/scripts/mcp-connect.sh")
 CENSUS_API_KEY = os.environ["CENSUS_API_KEY"]  # must be set
